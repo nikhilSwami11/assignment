@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      // Taking the Arguments here.
       home: const HomeScreen(numberOfCircles: 6, completedCircles: 4),
     );
   }
